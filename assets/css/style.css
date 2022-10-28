@@ -1,5 +1,9 @@
 /* top level elements */
 
+:root {
+    --pink:#ff66ff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,26 +17,56 @@ html {
 
 body {
     font-family:'Arial Black', Helvetica, Arial, sans-serif;
+    color:white;
 }
+
+/* header & nav */
 
 header {
-   
-}
+   height:14%;
+   }
 
 nav {
-    color:white;
+    color:var(--pink);
     font-size:1.5em;
 }
 
 nav ul {
     display:flex;
     flex-direction:row;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 nav ul li {
     list-style:none;
     flex-basis:12%;
+}
+
+h1 {
+    font-size: 8em;
+    line-height: .8em;
+    color: var(--pink)
+}
+
+h2 {
+    font-size:1em;    
+}
+
+/* main content */
+
+main {
+    display:flex;
+    flex-direction:row;
+    height:86%;
+}
+
+/* footer */
+
+footer {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    height:12%
 }
 
 /* media queries */
