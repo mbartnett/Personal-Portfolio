@@ -2,6 +2,7 @@
 
 :root {
     --pink:#ff66ff;
+    --white:#ffffff;
 }
 
 * {
@@ -16,14 +17,14 @@ html {
 }
 
 body {
-    font-family:'Arial Black', Helvetica, Arial, sans-serif;
-    color:white;
+    font-family: 'Gotham Ultra','Arial Black', Helvetica, Arial, sans-serif;
+    color:var(--white)
 }
 
 /* header & nav */
 
 header {
-   height:14%;
+   margin:2.5% auto;
    }
 
 nav {
@@ -34,7 +35,8 @@ nav {
 nav ul {
     display:flex;
     flex-direction:row;
-    justify-content: center;
+    justify-content:space-evenly;
+    align-items:center;
 }
 
 nav ul li {
@@ -44,12 +46,18 @@ nav ul li {
 
 h1 {
     font-size: 8em;
-    line-height: .8em;
-    color: var(--pink)
+    line-height: 1em;
+    color: var(--pink);
+    letter-spacing: .025em;
+    
+}
+
+.net {
+    font-size:1.6em;
 }
 
 h2 {
-    font-size:1em;    
+    font-size:1.38em;    
 }
 
 /* main content */
@@ -58,6 +66,24 @@ main {
     display:flex;
     flex-direction:row;
     height:86%;
+    margin:10% auto;
+}
+
+section.name {
+    margin:5%;
+}
+
+section.content {
+    background-color: black;
+    margin:5%;
+}
+
+main ul {
+    list-style: none;
+}
+
+main ul li {
+    background-color:var(--pink)
 }
 
 /* footer */
@@ -71,6 +97,7 @@ footer {
 
 /* media queries */
 
+/*
 @media screen and (max-width: 1200px) {
     section {
         flex-basis:30%;
@@ -88,3 +115,4 @@ footer {
         flex-basis:90%;
     }
 }
+*/
