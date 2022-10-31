@@ -106,19 +106,34 @@ main {
     padding:2%;
 }
 
+.wrapper {
+display:flex;
+flex-direction:row;
+}
+
 .project {
     display: flex;
     height: 200px;
     background-color: var(--pink);
     border: 1px solid var(--white);
+    background-image: url('/week-2-challenge/assets/images/skyline.jpg')
 }
 
-.project p {
-    padding:1%;
-    *position: absolute;
+.project-margin {
+margin:0 1%;
+display: flex;
+height: 200px;
+background-color: var(--pink);
+border: 1px solid var(--white);
+background-image: url('/week-2-challenge/assets/images/skyline.jpg')
+}
+
+.project h3 {
+    /*position:absolute;*/
 }
 
 .project img {
+    object-fit:fill;
     width:100%;
 }
 
