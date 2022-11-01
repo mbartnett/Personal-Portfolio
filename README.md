@@ -7,8 +7,8 @@ This webpage tested my ability to develop a responsive CSS layout, as well as ot
 
 ## Links
 
-[**Week Two Mini-Project**](https://mbartnett.github.io/week-2-challenge/)<br>
-[**Week Two Mini-Prokject Repo**](https://github.com/mbartnett/week-2-challenge)
+[**Week Two Mini-Challenge**](https://mbartnett.github.io/week-2-challenge/)<br>
+[**Week Two Mini-Challenge Repo**](https://github.com/mbartnett/week-2-challenge)
 
 ## Screengrabs
 
