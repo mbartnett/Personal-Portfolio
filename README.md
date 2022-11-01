@@ -13,7 +13,7 @@ This webpage tested my ability to develop a responsive CSS layout, as well as ot
 ## Screengrabs
 
 ![CSS Snippets website desktop screenshot](assets/images/mbartnett.png)
-![CSS Snippets website mobile/tablet screenshot](assets/images/mbartnett-smaller.png)
+![CSS Snippets website mobile/tablet screenshot](assets/images/mbartnett-small.png)
 
 
 ## License
