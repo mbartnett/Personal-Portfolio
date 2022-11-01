@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+    }
 
 html {
     background-image: linear-gradient(var(--black),var(--gray))
@@ -19,11 +19,12 @@ html {
 }
 
 header {
-    padding: 1%;
+    padding: 10px;
 }
 
 body {
     font-family: Figtree, 'Arial Black', Helvetica, Arial, sans-serif;
+    font-size: 16px;
     color: var(--white)
 }
 
@@ -31,7 +32,6 @@ body {
 
 nav {
     color: var(--white);
-    font-size: 1.5em;
 }
 
 nav ul {
@@ -40,8 +40,9 @@ nav ul {
 
 nav ul li {
     font-family: 'Figtree Ultra 900', 'Arial Black', Helvetica, Arial, sans-serif;
+    font-size: 22px;
     list-style: none;
-    width:justify-content: center;
+    justify-content: center;
     text-align: center;
     width: 33%;
 }
@@ -60,20 +61,21 @@ nav ul li a:hover {
 
 h1 {
     font-family:'Bowlby One', 'Arial Black', Helvetica, Arial, sans-serif;
-    font-size: 8em;
-    line-height: 1.1em;
+    font-size: 90px;
+    line-height: 100px;
     color: var(--pink);
-    letter-spacing: .025em;
+    letter-spacing: 0px;
 }
 
 .net {
     font-family: 'Bowlby One', 'Arial Black', Helvetica, Arial, sans-serif;
     font-size: 1.6em;
+    letter-spacing: 0px;
 }
 
 h2, h3, h4 {
     font-family:'Figtree Ultra 900','Arial Black', Helvetica, Arial, sans-serif;
-    font-size: 1.38em;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -97,27 +99,32 @@ main {
     align-content: stretch;
     width: 50%;
     padding: 2%;
-    margin-top: 5%;
 }
 
 .howdy {
     display: flex;
+    align-items: center;
     flex-direction: row;
     padding: 2%;
     margin-top: 5%;
+    width: 75%;
+    
 }
 
-p#howdy {
+.about-me, {
+    display: flex;
+    align-items: center;
     text-align: center;
-    padding: 2%;
     font-size: 1rem;
     line-height: 2em;
+    min-width: 25%;
 }
 
 .howdy img {
     float: left;
     width: 100px;
     height: 100px;
+    margin-right: 10px;
     border-radius: 50%;
     border: solid 2px var(--white);
 }
@@ -128,15 +135,17 @@ p#howdy {
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
+    padding: 2%;
 }
 
 .content a {
     text-decoration:none;
     color:var(--white);
+    margin: 0px;
+    padding: 0px;
 }
 
 .content a:hover {
-    text-decoration:underline;
     color: var(--black);
 }
 
@@ -159,14 +168,15 @@ margin-bottom: 2%;
 }
 
 .project-margin-side {
-margin:0 auto;
+margin:0 2%;
 display: flex;
 height: 200px;
 }
 
 .content h3 {
     position:absolute;
-    font-size: 1em;
+    font-size: 16px;
+    line-height: 24px;
     text-align:left;
     padding:5% 2%;
     opacity: 1;
@@ -177,8 +187,9 @@ height: 200px;
 footer {
     display: flex;
     justify-content: center;
-    padding: 1%;
+    padding: 10px;
     margin-top: 5%;
+    color: var(--white);
     background-color: var(--pink);
 }
 
@@ -192,6 +203,7 @@ footer {
     .content {
          width: 50%;
     }
+}
 
 @media screen and (max-width: 900px) {
     .me {
@@ -201,6 +213,7 @@ footer {
     .content {
          width: 100%;
     }
+}
 
 @media screen and (max-width: 500px) {
     .me {
@@ -209,34 +222,36 @@ footer {
 
     .content {
          width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+         flex: 1;
     }
 
     .wrapper {
         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
         }
 
     .project {
         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
         }
 
     .project-margin-bottom {
         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
         }
 
     .project-margin-side {
         width: 100%;
-        }
-
-    /*h1 {
-        font-family:'Bowlby One', 'Arial Black', Helvetica, Arial, sans-serif;
-        font-size: 4em;
-        line-height: 1.1em;
-        color: var(--pink);
-        letter-spacing: .0125em;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
     }
-
-    .net {
-        font-family: 'Bowlby One', 'Arial Black', Helvetica, Arial, sans-serif;
-        font-size: 1.6em;
-    }
-    */
+}
