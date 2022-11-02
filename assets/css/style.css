@@ -181,12 +181,6 @@ width: 100%;
     width: 200%;
 }
 
-/*
-.project img:hover, .project-margin-bottom img:hover, .project-margin-side img:hover {
-    border: 10px solid black;
-}
-*/
-
 .content h3 {
     position:absolute;
     font-size: 20px;
