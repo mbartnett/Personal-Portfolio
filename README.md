@@ -1,5 +1,5 @@
-# Week Two Challenge
-A portfolio page that I will add to as I progress through the Coding Bootcamp at UT Austin 
+# Personal Portfolio
+A portfolio page that I will add to as I progress through the Coding Bootcamp at UT Austin
 
 ## Description
 
@@ -7,8 +7,8 @@ This webpage tested my ability to develop a responsive CSS layout, as well as ot
 
 ## Links
 
-[**Week Two Challenge**](https://mbartnett.github.io/week-2-challenge/)<br>
-[**Week Two Challenge Repo**](https://github.com/mbartnett/week-2-challenge)
+[**Week Two Challenge**](https://mbartnett.github.io/Personal-Portfolio/)<br>
+[**Week Two Challenge Repo**](https://github.com/mbartnett/Personal-Portfolio)
 
 ## Screengrabs
 
